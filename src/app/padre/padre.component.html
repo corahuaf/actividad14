@@ -1,0 +1,9 @@
+<div class="w-1/2 mx-auto p-6">
+    <div class="pb-5 p-6 bg bg-green-200">
+        <label for="">COMPONENTE PADRE</label><br>
+        <input type="text" [(ngModel)]="data" class="border border-grey-200 rounded-lg p-2 w-1/2 mt-4">
+    </div>
+    <div>
+        <app-hijo [dato]="data" class="pt-8"></app-hijo>
+    </div>    
+</div>
